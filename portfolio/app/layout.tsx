@@ -28,7 +28,6 @@ export const metadata: Metadata = {
   title: "Leandro | Web Scraping, Automation & GCP",
   description:
     "Developer with 2+ years of experience in scalable automation systems, web crawlers, and APIs. Skilled in Python, TypeScript, React, and GCP infrastructure (Cloud Run, BigQuery, CI/CD).",
-    icons: "📚"
 };
 
 export default function RootLayout({
