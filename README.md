@@ -53,7 +53,7 @@ Make sure you have [Node.js](https://nodejs.org/en/) (v18 or higher) installed o
 
 1.  **Clone the repo**
     ```bash
-    git clone [https://github.com/leandromlc/leandromlc-portfolio.git](https://github.com/leandromlc/leandromlc-portfolio.git)
+    git clone https://github.com/leandromlc/leandromlc-portfolio.git
     ```
 
 2.  **Navigate to the project directory**
