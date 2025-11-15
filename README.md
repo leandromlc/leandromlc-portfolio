@@ -9,7 +9,6 @@
   </p>
 
   <p>
-    <img src="https://github.com/leandromlc/leandromlc-portfolio/actions/workflows/main.yml/badge.svg" alt="Build Status">
     <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
