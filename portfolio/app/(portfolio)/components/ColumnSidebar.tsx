@@ -43,7 +43,7 @@ const ColumnSidebar = () => (
           </tr>
           <tr>
             <td className="border border-gray-400 p-2 align-top font-semibold small-caps">
-              Scraping
+              Scraping Tools
             </td>
             <td className="border border-gray-400 p-2">
               BeautifulSoup • Curl_Cffi • Rnet • Camoufox
@@ -51,7 +51,7 @@ const ColumnSidebar = () => (
           </tr>
           <tr>
             <td className="border border-gray-400 p-2 align-top font-semibold small-caps">
-              Backend
+              Backend / API
             </td>
             <td className="border border-gray-400 p-2">
               FastAPI • Requests • Pandas • Proxy rotation
@@ -67,7 +67,7 @@ const ColumnSidebar = () => (
           </tr>
           <tr>
             <td className="border border-gray-400 p-2 align-top font-semibold small-caps">
-              CI/CD
+              CI/CD & DevOps
             </td>
             <td className="border border-gray-400 p-2">
               GitHub Actions • Docker • Linux • Git
