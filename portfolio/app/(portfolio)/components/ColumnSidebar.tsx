@@ -95,5 +95,4 @@ const ColumnSidebar = () => (
   </aside>
 );
 
-
 export default ColumnSidebar;
