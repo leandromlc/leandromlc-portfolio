@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default function Portfolio() {
   return (
     <>
-      <div className="container mx-auto max-w-7xl p-6 md:p-12 font-serif-body text-ink-black antialiased">
+      <div className="container mx-auto max-w-8xl p-6 md:p-12 font-serif-body text-ink-black antialiased">
         <Header />
 
         <p className="text-center text-lg font-serif-fancy italic text-ink-black mb-8">
