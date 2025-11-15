@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  --aged-paper: #f8f8f7;
+  --ink-black: #1a1a1a;
+  --faded-gray: #555555;
+}
+
+body {
+  background-color: var(--aged-paper);
+  color: var(--ink-black);
+}
+
+.font-serif-headline {
+  font-family: "Merriweather", serif;
+}
+
+.font-serif-body {
+  font-family: "Old Standard TT", serif;
+}
+
+.font-serif-fancy {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.font-script {
+  font-family: "Great Vibes", "cursive";
+}
+
+.bg-aged-paper {
+  background-color: var(--aged-paper);
+}
+
+.text-ink-black {
+  color: var(--ink-black);
+}
+
+.text-faded-gray {
+  color: var(--faded-gray);
+}
+
+.hr-ornate {
+  height: 0;
+  border: none;
+  border-top: 1px solid var(--ink-black);
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.hr-ornate::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  width: 30px;
+  height: 10px;
+  border-top: 1px solid var(--ink-black);
+  border-bottom: 1px solid var(--ink-black);
+  transform: translateX(-50%);
+  background-color: var(--aged-paper);
+}
+
+.hr-bold {
+  border: 0;
+  height: 2px;
+  background-color: var(--ink-black);
+  margin: 1.5rem 0;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.drop-cap:first-letter {
+  float: left;
+  font-size: 3.5em;
+  line-height: 0.8;
+  margin-right: 0.1em;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  color: var(--ink-black);
+}
+
+.column-divider-left {
+  border-left: 1px solid #ccc;
+  padding-left: 1.5rem;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .column-divider-left {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+  }
+}
