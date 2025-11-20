@@ -5,7 +5,7 @@
   </p>
   
   <p>
-    <a href="https://leandromlc.site/"><strong>View Live Demo »</strong></a>
+    <a href="https://leandromlc.site/" target="_blank"><strong>View Live Demo »</strong></a>
   </p>
 
   <p>
